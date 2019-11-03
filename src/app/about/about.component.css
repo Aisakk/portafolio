@@ -1,0 +1,33 @@
+.aisak{
+    height: 500px;
+    width: 300px;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    clip-path: circle(40% at center);
+    float: left;
+}
+.content-parrafo{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 174, 255);
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.9s ease-in-out;
+}
+a:hover{
+    border: 1px solid rgb(0, 174, 255);
+    background-color: white;
+    color: rgb(0, 174, 255);
+}
+p{
+    margin-top: 5%;
+}

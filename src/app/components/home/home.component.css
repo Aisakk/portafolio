@@ -1,0 +1,232 @@
+.header{
+    display: flex;
+ }
+ .imagen{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     opacity: 0.1;
+     object-position: -10%  25%;
+ 
+ }
+ .content-h{
+     top: 0;
+     padding-left: 30px;
+     position: absolute;
+     margin-top: 15%;
+ }
+ 
+ 
+ .container-avatar{
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     right: 10%;
+     top: 13%;
+     animation-name: movingBox;
+     animation-duration: 4000ms;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+ .container-avatar>img{
+     width: 100%;
+     height: 100%;
+ }
+ @keyframes movingBox{
+     0% {
+         transform: translate(0, 0);
+        
+       }
+     
+       100% {
+         transform: translate(0, 10%);
+       }
+ }
+ .content-header>.object-img{
+     height: 30px;
+     width: 30px;
+ }
+ 
+ .content-header h4{
+     margin-left: 10px;
+ }
+ .line{
+     position:absolute;
+     width: 100%;
+     margin-left: -33px;
+     border: 1px solid #dfdfdf;
+     overflow: hidden;
+ }
+ .servicios{
+     text-align: center;
+ }
+ .container-cards{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .cards{
+     width: 300px;
+     height: 400px;
+     background-color: #fff;
+     box-shadow: 0 0px 3px #a5a5a5;
+     border-radius: 10px;
+ }
+ .cards:nth-child(2){
+     margin-left: 2%;
+ }
+ .cards:last-child{
+     margin-left: 2%;
+ }
+ @media(max-width: 600px){
+     .container-section[_ngcontent-fkv-c9] > h2[_ngcontent-fkv-c9] {
+         top: 45%;
+     }
+     .cards{
+         width: 500px;
+         margin-top: 3%;
+     }
+     .header{
+         justify-content: center;
+         height: 250px;
+     }
+     .container-avatar{
+         display: none;
+     }
+     .content-h{
+         flex-direction: column;
+         padding-left: 30px;
+         position: absolute;
+         margin-top: 40%;
+         display: flex;
+     }
+ }
+ @media (min-width: 700px){
+     .container-avatar{
+         height: 150px;
+         width: 150px;
+         top: 18%;
+         right: 13%;
+     }
+     .container-cards{
+         justify-content: center;
+         flex-wrap: wrap;
+     }
+     .cards{
+         width: 390px;
+         margin-top: 3%;
+     }
+     .cards:nth-child(2){
+         margin-left: 2%;
+     }
+     .cards:last-child{
+         margin-left: 0%;
+     }
+ }
+ @media (min-width: 961px){
+     .content-h{
+         margin-top: 15%;
+         margin-left: 7%;
+     }
+     .container-avatar{
+         height: 200px;
+         width: 200px;
+         top: 13%;
+         right: 18%
+     }
+     .cards{
+         width: 280px;
+     }
+     .cards:nth-child(2){
+         margin-left: 2%;
+     }
+     .cards:last-child{
+         margin-left: 2%;
+     }
+ }
+
+ .content-header{
+     padding: 10px;
+     display: flex;
+     flex-direction: row;
+     height: 50px;
+     background-color: #ffff;
+ }
+ .content-body{
+     display:flex;
+     flex-direction: column;
+ }
+ .object-img-banner{
+     width: 100%;
+     height: 200px;
+ }
+ .content-body>p{
+     padding: 10px;
+     color: #7e7e7e;
+ }
+ .arquitecture{
+     margin-top: 50px;
+     width: 100%;
+ }
+ .container-section>.img{
+     width: 100%;
+     filter: brightness(0.8);
+     
+ }
+ .container-section{
+     position: relative;
+     display:flex;
+     justify-content: center;
+ }
+ .container-section>h2{
+     top: 45%;
+     position: absolute;
+     color: #fff;
+ }
+ .container-section-texto{
+     display:flex;
+     width: 100%;
+ }
+ .card-text{
+     border-right: 1px solid rgb(207, 207, 207);
+     padding: 0 0.5rem 0 0.5rem;
+     margin-top: 20px;
+     text-align: center;
+ }
+ .card-text:last-child{
+     border-right: none;
+ }
+ .container-stags{
+     position:relative;
+     width:100%;
+     display:flex;
+     margin-top: 10%;
+ }
+ .stags-img{
+     width:100%;
+ }
+ .stags-img>img{
+     width:100%;
+     height: 400px;
+     background-size: cover;
+ 
+ }
+ .stags>h2{
+     padding: 0;
+     color: black;
+     position: relative;  
+     align-self: center;
+ 
+ }
+ .stags{
+     display:flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+ 
+ }
+ .stags>h5{
+       margin-left: 15px;
+ }
+ 

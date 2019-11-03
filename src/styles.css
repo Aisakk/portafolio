@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+.header{
+    height: 45%;
+    width: 100%;  
+    background: linear-gradient(to right, #1c3643, #1e5372);
+  }
+h2{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.body-container{
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background:#1e5372;
+    display: flex;
+}
+.mat-dialog-container{
+    height: auto !important;
+    min-height: auto !important;
+    overflow: hidden !important;
+}

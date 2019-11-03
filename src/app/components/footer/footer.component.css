@@ -1,0 +1,19 @@
+footer{
+    background: linear-gradient(to right, #1c3643, #1e5372);
+    height: 120px;
+    width: 100%;
+    color: #fff;
+    
+}
+.container-footer{
+    display:flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.container-footer1{
+	margin-top: 15px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}

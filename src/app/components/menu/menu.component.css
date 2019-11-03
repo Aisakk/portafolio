@@ -1,0 +1,62 @@
+a{
+  text-decoration: none;
+  color: #000;
+}
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0 0 3px 0px #dfdfdf;
+}
+.mat-icon{
+  color: #000;
+}
+.mat-button{
+  color: #000;
+}
+.example-spacer{
+  flex: 1 1 auto;
+}
+.LogoAisak{
+  height:50px;
+  width: 50px;
+  margin-right: 20px;
+}
+/*Colores para los iconos de menu
+font-size: 32px;
+    background: -webkit-linear-gradient(#83C8DF, #87e8f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+*/
+i:hover{
+  transition: 0.8s ease;
+  background: -webkit-linear-gradient(#83C8DF, #87e8f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa{
+  margin-right: 20px;
+}
+@media (min-width: 961px){
+  .sidenav {
+    display: none;
+  }
+}
+@media(max-width:960px){
+  .buttonMat{
+    display: none;
+  }
+}

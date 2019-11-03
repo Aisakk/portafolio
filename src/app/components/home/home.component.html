@@ -1,0 +1,53 @@
+<div class="header">
+    <img src="assets/img/computer-code2.jpg" alt="" class="imagen">
+    <div class="content-h">
+    <h2>Bienvenido a la Web Aisak</h2>
+    <h2>Diseño y Desarrollo Web</h2>
+    </div>
+    <div class="container-avatar">
+        <img src="assets/img/aisak-flat.png" alt="avatar">
+    </div>
+</div>
+<div class="body-container">
+    <h3 class="servicios">Servicios</h3>
+    <div class="container-cards">
+        <div class="cards" *ngFor="let object of service">
+            <div class="cards-body">
+                <div class="content-header">
+                    <img class="object-img" [src]="object.imageUrl" alt="">
+                    <h4>{{object.title}}</h4>
+                </div>
+                    <div class="content-body">
+                    <img [src]="object.imageBanner" class="object-img-banner" alt="">
+                    <p>{{object.description}}</p>
+                    </div>
+            </div>
+
+        </div>
+    </div><hr class="line">
+    <div class="arquitecture">
+        <div class="container-section">
+            <img class="img" src="assets/img/metodologia.png" alt="metodologia">
+            <h2>Patrones de Diseño y Marco de Trabajo</h2>
+        </div>
+        <div class="container-section-texto">
+            <div class="card-text" *ngFor="let text of arquitecture">
+                <h4>{{text.title}}</h4>
+                <p>{{text.description}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-stags">
+        <div class="stags-img">
+                <img src="assets/img/stags.png" alt="stags">
+        </div>
+        <div class="stags">
+            <h2>Stags</h2>
+            <h5>-Proactivo</h5>
+            <h5>-Creativo</h5>
+            <h5>-Sincero</h5>
+            <h5>-Responsable</h5>
+            <h5>-Autodidacta</h5>
+        </div>
+    </div>
+</div>

@@ -206,7 +206,7 @@
     margin-top: 20%;
   }
   .header{
-    width: 200px;
+    height: 200px;
   }
 }
 @media(min-width: 900px) and (max-width: 992px){

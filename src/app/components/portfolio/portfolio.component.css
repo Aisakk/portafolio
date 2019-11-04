@@ -99,7 +99,7 @@
 
 .content-h{
   position: absolute;
-  margin-top: 6%;
+  margin-top: 9%;
   width: 100%;
   top: 0;
 }
@@ -209,27 +209,28 @@
     width: 200px;
   }
 }
-@media(min-width: 900px){
+@media(min-width: 900px) and (max-width: 992px){
   .example-large-box {
-  height: 200px;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
-.circle-img{
-border-radius: 100%;
-height: 60px;
-width: 60px;
+    height: 200px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .circle-img{
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
 
+  }
+  .content-h{
+    margin-top: 15%;
+  }
+  .header{
+    height: 200px;
+  }
 }
-.content-h{
-  margin-top: 15%;
-}
-.header{
-  height: 200px;
-}
-}
+
 .circle-img>img{
   width: 100%;
   height: 100%;

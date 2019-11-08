@@ -5,7 +5,7 @@
     height: 250px;
     width: 450px;
     float: left;
-    background-image: url('/assets/img/login_pdvsa.png');
+    background-image: url('../assets/img/login_pdvsa.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -40,7 +40,7 @@ a:hover{
     height: 250px;
     width: 450px;
     float:none;
-    background-image: url('/assets/img/login_pdvsa.png');
+    background-image: url('../assets/img/login_pdvsa.png');
     background-size: contain;
     background-repeat: no-repeat;
 }

@@ -4,7 +4,7 @@
     height: 200px;
     width: 300px;
     float: left;
-    background-image:url('/assets/img/jmscarpinteriaweb.png');
+    background-image:url('../assets/img/jmscarpinteriaweb.png');
     background-size: contain;
     background-repeat: no-repeat;
    margin-right: 10px;
@@ -39,7 +39,7 @@ a:hover{
     height: 250px;
     width: 450px;
     float:none;
-    background-image:url('/assets/img/jmscarpinteriaweb.png');
+    background-image:url('../assets/img/jmscarpinteriaweb.png');
     background-size: contain;
     background-repeat: no-repeat;
 }

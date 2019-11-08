@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
 ];
   arquitecture = [{
     title: "Modelo Vista Controlador",
-    description: "patrón de arquitectura de software, que separa los datos\
+    description: "Patrón de arquitectura de software, que separa los datos\
                    y la lógica de negocio de una aplicación, permitiendo\
                   la legibilidad del codigo y mantener la aplicacion."
   },
@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
   },
   {
     title: "Scrum",
-    description: "Trabajo sobre esta metodologia agile, ya que contiene\
+    description: "Trabajo sobre esta metodologia ágil, ya que contiene\
                   un conjunto de buenas practicas para trabajar coloborativamente."
   },
   ];
